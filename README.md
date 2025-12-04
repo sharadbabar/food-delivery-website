@@ -83,6 +83,13 @@ food-delivery-website/
 
 ----**HOW TO RUN**----
 
+
+create a .env file and add the following things in it->
+JWT_SECRET="random#secret"
+STRIPE_SECRET_KEY="add_your_own_stripe_secret_key"
+
+
+
 in frontend-> npm run dev
 in admin-> npm run dev
 in backend-> add stripe secret key in .env file and then run=> npm run server. 
