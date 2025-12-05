@@ -10,7 +10,7 @@ import 'react-toastify/dist/ReactToastify.css'
 
 const App = () => {
 
-const url= "http://localhost:4000" // change the url for backend . ie enter the backend url
+const url= " https://food-delivery-website-sq97.onrender.com" 
 
   return (
     <div>
