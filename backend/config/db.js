@@ -1,7 +1,12 @@
 import mongoose from "mongoose";
 
+const connectDB = async () => {
+  try {
+    await mongoose.connect(process.env.MONGO_URI);
+    console.log("DB Connected");
+  } catch (err) {
+    console.log("DB Connection Error:", err);
+  }
+};
 
-export const connectDB= async ()=>{
-    await mongoose.connect('mongodb+srv://sharadbabar:Onelifebaby123@cluster0.0ylyru0.mongodb.net/food-del').then(()=>console.log("DB Connected"))
-
-}
+export default connectDB;
