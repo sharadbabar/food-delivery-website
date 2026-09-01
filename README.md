@@ -85,8 +85,10 @@ food-delivery-website/
 
 
 create a .env file and add the following things in it->
+MONGODB_URI="mongodb+srv://your-user:your-password@cluster.mongodb.net/food-del"
 JWT_SECRET="random#secret"
 STRIPE_SECRET_KEY="add_your_own_stripe_secret_key"
+FRONTEND_URL="https://your-frontend-domain.vercel.app"
 
 
 
